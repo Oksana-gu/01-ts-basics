@@ -4,7 +4,7 @@ interface User {
   email?: string; 
 }
 
-function printUserInfo(user: User) {
+function printUserInfo(user: User): void {
   console.log("Name:", user.name);
   console.log("Age:", user.age);
   if (user.email) {
